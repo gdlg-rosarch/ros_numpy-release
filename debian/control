@@ -1,0 +1,12 @@
+Source: ros-indigo-ros-numpy
+Section: misc
+Priority: extra
+Maintainer: Eric Wieser <wieser@mit.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/ros_numpy
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ros-numpy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: A collection of conversion function for extracting numpy arrays from messages
