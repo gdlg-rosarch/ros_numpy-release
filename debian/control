@@ -1,0 +1,12 @@
+Source: ros-jade-ros-numpy
+Section: misc
+Priority: extra
+Maintainer: Eric Wieser <wieser@mit.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://wiki.ros.org/ros_numpy
+Standards-Version: 3.9.2
+
+Package: ros-jade-ros-numpy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-numpy, ros-jade-geometry-msgs, ros-jade-nav-msgs, ros-jade-rospy, ros-jade-sensor-msgs, ros-jade-tf
+Description: A collection of conversion function for extracting numpy arrays from messages
