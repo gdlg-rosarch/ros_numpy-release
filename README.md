@@ -1,3 +1,26 @@
+## ros_numpy (kinetic) - 0.0.2-0
+
+The packages in the `ros_numpy` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -t kinetic -r kinetic ros_numpy` on `Wed, 10 Aug 2016 08:38:58 -0000`
+
+The `ros_numpy` package was released.
+
+Version of package(s) in repository `ros_numpy`:
+
+- upstream repository: https://github.com/eric-wieser/ros_numpy.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## ros_numpy (jade) - 0.0.2-0
 
 The packages in the `ros_numpy` repository were released into the `jade` distro by running `/usr/bin/bloom-release -t jade -r jade ros_numpy` on `Wed, 10 Aug 2016 08:27:30 -0000`
